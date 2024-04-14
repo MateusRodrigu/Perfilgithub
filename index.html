@@ -1,56 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Perfil gitahub</title>
 </head>
 <header class="cabecalho">
-
+    <a href="#"><h1>mateus costa</h1></a>
+    <nav>
+        <input type="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menu-icon">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times-circle"></i>
+        </label>
+        <ul class="menu">
+            <li><a href="#">seleção 1</a></li>
+            <li><a href="#">seleção 2</a></li>
+            <li><a href="#">seleção 3</a></li>
+        </ul>
+    </nav>
 </header>
+
 <body>
     <section class="Perfil">
-
+        <h1>Perfil</h1>
+        <img class="foto-perfil"  src="assets/img/foto de perfil.jpg" alt="foto de Perfil">
+        <div class="texto">
+            <h2>fulano de tal da silva</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quas illum quos nobis. Incidunt nisi magni
+            sapiente qui, quibusdam blanditiis officia non commodi, illo minus perferendis, repellendus pariatur!</p>
+        </div>    
     </section>
     <section class="repositorios">
-
-    </section>
-    <section class="conteudo sugerido">
-        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="https://exame.com/bussola/sistemas-legados-sao-a-maior-preocupacao-do-setor-financeiro/"><img src="assets/img/Noticias.jpg" class="d-block w-100" alt="baner Noticias"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="https://staart.com/"><img src="assets/img/staart.png" class="d-block w-100" alt="baner de divugaço staart"></a>
-              </div>
-              <div class="carousel-item">
-                <a href=""><img src="..." class="d-block w-100" alt="..."></a>
-              </div>
-            </div>
-            <div class="carousel-item">
-                <a href=""><img src="..." class="d-block w-100" alt="..."></a>
+        <h1>repositorios 7</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
               </div>
             </div>
-            <div class="carousel-item">
-                <a href=""><img src="..." class="d-block w-100" alt="..."></a>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
           </div>
     </section>
-    
+    <section class="conteudo sugerido">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a><img src="assets/img/estudo de cassos.png" class="d-block w-100" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                    <a><img src="assets/img/Noticias.jpg" class="d-block w-100" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                    <a><img src="assets/img/staart.png" class="d-block w-100" alt="..."></a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
 </body>
 <footer class="rodape">
+    <h1>Colegas de trabalho</h1>
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
 
 </footer>
+
 </html>
