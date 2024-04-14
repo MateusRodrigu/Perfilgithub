@@ -39,10 +39,14 @@
 header {
     justify-content: left;
 }
+body {
+    background-color: bisque;
+}
 .Perfil{
     display: block;
 }
 .Perfil img {
+    
     justify-content:center;
     max-width: 250px;
     border-radius: 50%;
@@ -56,18 +60,17 @@ header {
     height: 350px;
   }
 section {
-    border: 10px solid;
-    border-color: black;
+    background-color: rgb(116, 170, 246);
     margin: 10px;
     padding: 10px;
 }
 footer {
-
+    background-color: rgb(116, 170, 246);
     margin: 10px;
 }
 
 footer h1 {
-    background-color: blueviolet;
+
     grid-row: 1/2;
     grid-column: 1/6;
 }   
