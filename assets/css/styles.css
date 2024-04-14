@@ -47,6 +47,10 @@ header {
     max-width: 250px;
     border-radius: 50%;
 }
+.conteudo-sugerido img{
+    max-width: 900px;
+    max-height: 350px;
+}
 section {
     border: 10px solid;
     border-color: black;
