@@ -63,7 +63,6 @@ footer {
 }
 
 footer h1 {
-    border-en   ;
     background-color: blueviolet;
     grid-row: 1/2;
     grid-column: 1/6;
