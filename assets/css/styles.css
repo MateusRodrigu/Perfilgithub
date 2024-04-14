@@ -51,6 +51,10 @@ header {
     max-width: 900px;
     max-height: 350px;
 }
+.carousel-item img {
+    width: 900px;
+    height: 350px;
+  }
 section {
     border: 10px solid;
     border-color: black;
@@ -69,13 +73,33 @@ footer h1 {
 }   
 
 
+
 .rodape img{
     margin: 20px;
     width: 200px;
+}
+.fotos {
+    display: grid;
+}
+.fotos li {
+    justify-content: center;
+
 }
 @media screen and (min-width:800px) {
     .rodape li{
         display: inline;
     }
-
+    .fotos{
+        display: flex;
+    }
+    .profile-card{
+        display: grid ;
+        grid-template-columns: 1fr 2fr;
+    }
+    .profile-img{
+        grid-column: 1;
+    }
+    .profile-text{
+        grid-column: 2;
+    }
 }
